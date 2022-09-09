@@ -14,10 +14,13 @@ body{
 }
 .display{
     width: 450px;
-    height: 100px;
+    height: 90px;
     border: 1px solid black;
     border-radius: 6px;
     margin: 15px;
+    font-size: large;
+    text-align: end;
+    
 }
 .keys{
     width: 450px;
@@ -25,11 +28,21 @@ body{
     margin: 5px;
 }
 .row1{
+    display: flex;
+    justify-content: space-around;
     width: 450px;
     margin: 10px 4px;
 }
 button{
+    width: 100%;
+    font-size: 15px;
     font-weight: bold;
-    padding: 13px 45px;
+    padding: 13px 35px;
     margin: 2px;
+}
+.equals{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(57, 57, 231);
+    border: none;
 }
