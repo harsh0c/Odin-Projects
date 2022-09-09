@@ -18,9 +18,10 @@ body{
     border: 1px solid black;
     border-radius: 6px;
     margin: 15px;
-    font-size: large;
+    font-size: 30px;
     text-align: end;
-    
+    display: flex;
+    flex-direction: column-reverse;
 }
 .keys{
     width: 450px;
@@ -46,4 +47,16 @@ button{
     background-color: rgb(57, 57, 231);
     border-radius: 4px;
     border: none;
+}
+
+#CE{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.operations{
+    color: white;
+    background-color: rgb(49, 49, 238);
+    border: none;
+    border-radius: 5px;
 }
