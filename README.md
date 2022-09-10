@@ -1,1 +1,1 @@
-# odin-recipes
+# Projects I build from The Odin Project curriculum.
